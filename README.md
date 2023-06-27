@@ -7,6 +7,6 @@ Head over to chrome://extensions and enable developer mode on the top right (Or 
 
 Press "load unpacked" and select the folder which the files are in
 
-Then you're done, enjoy a lag free web session at all time.
+Then you're done, enjoy a lag free roblox web session at all time.
 
 (Be mindful that this is work in progress and not complete)
