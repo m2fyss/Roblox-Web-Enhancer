@@ -10,3 +10,7 @@ Press "load unpacked" and select the folder which the files are in
 Then you're done, enjoy a lag free roblox web session at all time.
 
 (Be mindful that this is work in progress and not complete)
+
+# Video-tutorial
+This is the link to the video tutorial for installing this (low quality)
+https://www.youtube.com/watch?v=Aj2M6ZIixao
