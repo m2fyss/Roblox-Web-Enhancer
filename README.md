@@ -1,4 +1,4 @@
-# Web-enhancer
+# Roblox-Web-Enhancer
 This is a web enhancing roblox project made with java.
 # Written-guide
 First off, download the contents of this repository as a zip then extract the folder inside,
