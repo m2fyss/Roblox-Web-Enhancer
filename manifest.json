@@ -1,0 +1,19 @@
+{
+	"name": "RobloxWeb+",
+	"version": "1.0.5",
+	"manifest_version": 3,
+	"description": "This extension is work in progress and may have bugs.",
+	"action": {
+		"default_icon": "assets/icon.png"
+	},
+	"permissions": ["cookies"],
+	"host_permissions": ["https://www.roblox.com/"],
+	"background": {
+		"service_worker": "scripts/webjs.js"
+	},
+	"icons": {
+		"16": "assets/icon.png",
+		"48": "assets/icon.png",
+		"128": "assets/icon.png"
+	}
+}
